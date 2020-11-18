@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Detect whether a custom protocol is available in browser (Chrome, Firefox, Safari, iOS, IE8-IE11 and Edge)",
   "main": "index.js",
+  "types": "index.d.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
     "start": "npm run build && webpack-dev-server --config ./webpack.config.js",
