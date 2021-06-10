@@ -170,7 +170,7 @@ const openUriWithTimeoutHack = (uri, failCb, successCb) => {
 
   const handler = registerEvent(target, "blur", onBlur);
 
-  window.location = uri;
+  window.location.href = uri;
 };
 
 const openUriUsingFirefox = (uri, failCb, successCb) => {
